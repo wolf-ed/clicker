@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+button {
+    width: 80%;
+    height: 50%;
+    /* padding: 20px 40px; */
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #007BFF;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.disabled {
+    background-color: #cccccc;
+    pointer-events: none;
+}
